@@ -1,0 +1,128 @@
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    z-index:0;
+    background
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-image: bg.jpg;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #F2F2F2;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	height:70px;
+    
+}
+
+.logo {
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px; 
+	margin-top: 16px;
+}
+
+.logo_text {
+	float: left;
+    margin-top: 15px;
+	font-family: 'Galada', cursive;
+	font-size: 25px;
+    margin-left: 9px;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+}
+
+a {
+    text-decoration: none;
+	color: #1d1f21;
+}
+
+li {
+	list-style: none;
+    float: left;	
+	margin-left: 20px;
+    font-family: 'VT323', monospace;
+	padding-top: 10px;
+}
+
+.nav{
+    float: right;	
+}
+
+p{
+	margin-left: 55px;
+	margin-right: 55px;
+	margin-top: 125px;
+    font-size: 23px;
+    color: white;
+    font-family: "Galada"
+}
+
+.footer {
+	background-color: #F2F2F2;
+	width: 100%;
+	bottom: 0;
+    position: absolute;
+	height: 50px;
+    left: 0;
+    
+}
+
+.impressum	{
+	text-align: center;
+	font-family: 'Galada', cursive;
+	font-size: 18px; 
+    margin-top: 10px;
+	
+}
+
+h1 {
+    
+    font-size: 50px;
+    color: black;
+    font-family: "Galada"; "cursive";
+    margin-top: 350px;
+    padding-left: 350p;
+
+}
+
+::selection {
+  background: #F9D423;
+}
+::-moz-selection {
+  background: #F9D423;
+}
+
+.video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
